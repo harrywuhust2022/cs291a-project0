@@ -8,8 +8,8 @@ body, h1, h2, p, ul {
 /* Set a background color and font for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color:#333;
-    color: #f0f0f0;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -17,17 +17,13 @@ body {
 
 /* Style the header */
 header {
-    background-color: #efeaea;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: transparent; /* Remove background color */
+    color: #000; /* Black text color */
 }
 
 /* Style the navigation menu */
 nav ul {
-    list-style: none;
-    background-color: #f9f3f3;
-    overflow: hidden;
+    background-color: transparent; /* Remove background color */
 }
 
 nav li {
@@ -49,6 +45,21 @@ nav a {
     margin: 0 auto; /* Center-align the image horizontally */
 }
 
+.small-image {
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center-align the image horizontally */
+}
+
+.table-container {
+    text-align: center; /* Center-align the content within the div */
+}
+
+.table-container table {
+    margin: 0 auto; /* Center-align the table horizontally within the div */
+}
+
 /* Style main content sections */
 main {
     max-width: 800px;
@@ -62,6 +73,6 @@ main {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #f6f2f2;
+    background-color: #333;
     color: #fff;
 }
