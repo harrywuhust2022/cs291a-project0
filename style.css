@@ -2,6 +2,7 @@
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Set a background color and font for the body */
